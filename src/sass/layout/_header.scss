@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(14, 14, 14, 0.747);
+    padding:1.4rem 3rem;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.438);
+    &__logo{
+    font-size:1.3rem;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    &__link{
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+        &--home{
+            margin-right:1rem;
+            text-decoration: none;
+            padding:6px 7px;
+            color:white;
+        }
+        &--home:hover{
+            background-color: rgba(255, 255, 255, 0.055);
+            border-radius:1rem;
+            -webkit-border-radius:1rem;
+            -moz-border-radius:1rem;
+            -ms-border-radius:1rem;
+            -o-border-radius:1rem;
+        }
+
+        &--about{
+            padding:6px 7px;
+            text-decoration: none;
+            color:white;
+        }
+        &--about:hover{
+            background-color: rgba(255, 255, 255, 0.055);
+            border-radius:1rem;
+            -webkit-border-radius:1rem;
+            -moz-border-radius:1rem;
+            -ms-border-radius:1rem;
+            -o-border-radius:1rem;
+        }
+    }
+}

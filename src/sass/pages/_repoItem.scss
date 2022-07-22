@@ -1,0 +1,48 @@
+
+.repoContainer{
+    width:95%;
+    margin:0 auto;
+    background-color: rgb(6, 6, 14);
+    margin-bottom: 2rem;
+    margin-top:2rem;
+    color:white;
+    padding:1.2rem 1.4rem;
+    border-radius:.7rem;
+    border:.001px solid rgba(128, 128, 128, 0.034);
+    &__repoName{
+        font-size:1.6rem;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap:.2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        color:rgb(6, 177, 230);
+    }
+    &__repoDescription{
+        font-size:1.2rem;
+        color:rgb(204, 204, 204);
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    &__stats{
+        display: flex;
+        justify-content: center;
+        gap:2rem;
+        font-size:1.4rem;
+        &__repoWatchers{
+            color:yellow;
+        }
+        &__stars{
+            color:rgb(0, 89, 255);
+        }
+        &__issues{
+            color:rgb(255, 115, 0);
+        }
+        &__forks{
+            color:rgb(9, 184, 9)
+        }
+    }
+}
