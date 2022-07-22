@@ -20,7 +20,7 @@ function Search() {
     }else{
 
       dispatch({
-        type:'GET_LOADING',
+        type:'SET_LOADING',
       })
       // To do - search users
       setText(e.target.value)
